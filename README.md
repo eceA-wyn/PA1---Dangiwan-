@@ -1,10 +1,13 @@
 # ALPHABET SOUP PROBLEM
-1. A string input was asked from the user and then input was stored in variable z
-2. The variable z was then made into a list and was stored in the variable alphabet
-3. The function sort for the list was called in order to arrange the letters in the string in alphabetical order
-4. The output was then printed
+``` python
+z = input("Enter a string: ") #asking input from the user and storing in z
+alphabet = list(z) #list alphabet was made containing the data in z
+alphabet.sort() #sort function was called to arrange the letters in the string in alphabetical order
+print(alphabet) #output was printed
+```
 
 # EMOTICON PROBLEM
+
 1. A function named replacement was created
 2. A dictionay containing the signal words (smile, grin, etc.) and their appropriate value (emoticons) was created
 3. For loop containing the function replace for dictionary was used to find the signal word and replace the it with its equivalent emoticon
